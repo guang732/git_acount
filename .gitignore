@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / databases
+*.log
+logs/
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ROS / UAV specific
+build/
+devel/
+install/
+.catkin_tools/
+colcon_build/
+*.mavlinklog
+tlog/
+*.tlog
+*.raw
